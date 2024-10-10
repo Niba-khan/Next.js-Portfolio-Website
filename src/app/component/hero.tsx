@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { TypeAnimation } from 'react-type-animation';
+
 
 export default function Hero() {
   return (
@@ -20,23 +20,7 @@ export default function Hero() {
           </Link>
         </div>
         <h1 className='mt-10 md:mt-0 text-2xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-pink-900 to-red-900'>
-          Hello it's Me{" "}
-          <TypeAnimation
-            sequence={[
-              'Niba Khan',
-              1000,
-              'Web Developer',
-              1000,
-              'TypeScript Developer',
-              1000,
-              'CIT Professional',
-              1000
-            ]}
-            wrapper="span"
-            speed={50}
-            style={{ fontSize: '1.5em', display: 'inline-block' }}
-            repeat={Infinity}
-          />
+          Hello it's Me Niba khan
         </h1>
         <p className='mt-4 font-normal text-base md:text-lg text-white hover:text-pink-900 max-w-lg mx-auto'>
           "AI Student proficient in TypeScript, HTML, CSS, and Certified Information Technology | Dedicated to advancing AI with coding expertise | Ready to tackle cutting-edge challenges."
